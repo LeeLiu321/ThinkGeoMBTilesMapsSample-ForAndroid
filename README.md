@@ -2,11 +2,8 @@
 
 ### Description
 
-This sample demonstrates how you can draw the map with Vector Tiles saved in *.MBTiles in your Map Suite GIS applications, with any style you want from [StyleJSON (Mapping Defination Grammar)](https://wiki.thinkgeo.com/wiki/thinkgeo_stylejson). It will show you how to use the XyzFileBitmapTileCache to improve the performance of map rendering. It supports have 3 built-in default map styles and more awasome styles from StyleJSON file you passed in, by 'Custom': 
-- Light
-- Dark
-- TransparentBackground
-- Custom
+This sample demonstrates how you can draw the map with Vector Tiles saved in *.MBTiles in your Map Suite GIS applications, with any style you want from [StyleJSON (Mapping Defination Grammar)](https://wiki.thinkgeo.com/wiki/thinkgeo_stylejson). It will show you how to use the XyzFileBitmapTileCache to improve the performance of map rendering.
+
 
 If you want the *.mbtile file of any area in the world, or you have any requirement of building *.mbtile file based on your own data, such as shape file, Oracle, MsSql and more, please contact support@thinkgeo.com.
 
@@ -15,7 +12,7 @@ If you want the *.mbtile file of any area in the world, or you have any requirem
 
 Please refer to [Wiki](https://wiki.thinkgeo.com/wiki/map_suite_mobile_for_android) for the details.
 
-![Screenshot](https://github.com/ThinkGeo/ThinkGeoMBTilesMapsSample-ForWpf/blob/master/Screenshot.gif)
+![Screenshot](https://github.com/ThinkGeo/ThinkGeoMBTilesMapsSample-ForAndroid/blob/master/Screenshot.gif)
 
 ### Requirements
 This sample makes use of the following NuGet Packages
