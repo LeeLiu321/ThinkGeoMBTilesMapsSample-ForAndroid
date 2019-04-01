@@ -44,8 +44,11 @@ If you would like to draw the *.MbTiles with ThinkGeo pre-built StyleJson file, 
 1. Download "vectorMap-icons" icons font family from [ThinkGeo CDN](https://cdn.thinkgeo.com/vectormap-icons/1.0.0/vectormap-icons.ttf)
 2. Add the download "vectorMap-icons" icons font file to your project. Once you've added the font, you should then right click it and select the ‘Properties’ menu option. You will need to change the build property ‘Copy to output directory’ to ‘Always copy.’
 
-3. 
-
+3. To tell iOS you are using custom fonts, you should open the Info.plist file and add following parts to "<dict></dict>".
+	
+  <array>
+		<string>vectormap-icons.ttf</string>
+	</array>
 
 
 
