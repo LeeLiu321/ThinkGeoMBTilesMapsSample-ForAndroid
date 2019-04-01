@@ -47,8 +47,8 @@ If you would like to draw the *.MbTiles with ThinkGeo pre-built StyleJson file, 
 3. To tell iOS you are using custom fonts, you should open the Info.plist file and add following parts to "<dict></dict>".
 	
   <array>
-		<string>vectormap-icons.ttf</string>
-	</array>
+	<string>vectormap-icons.ttf</string>
+  </array>
 
 
 
